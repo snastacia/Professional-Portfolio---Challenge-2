@@ -87,10 +87,22 @@ p {
     min-height: 150px;
     max-height: 150px;
     margin: 5px 25px;
-    width: 43%;
+    width: 44%;
     border-style: solid;
     border-width: 5px;
+    text-align: center;
     padding: 10px;
+ }
+
+ .card header {
+    padding: 20px;
+    background:#333736;
+    color:#ffffff;
+ }
+
+ .card img {
+    width: 100%;
+    height: 55%;
  }
 
  .content-sections {
@@ -111,7 +123,6 @@ p {
 .About-Me-Section {
     margin-bottom: 20px;
     padding: 50px;
-    height: 200px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #536862;
     color: #ffffff;
@@ -130,7 +141,6 @@ p {
 .Contact-Me-Section {
     margin-bottom: 20px;
     padding: 50px;
-    height: 200px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #536862;
     color: #ffffff;
@@ -138,9 +148,8 @@ p {
 }
 
 .Resume-Section {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     padding: 50px;
-    height: 100px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #536862;
     color: #ffffff;
