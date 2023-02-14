@@ -35,11 +35,11 @@ N/A
 
 When you access my portfolio it will look like the following image:
    
-![alt text](file:///Users/nastacias/Desktop/bootcamp/Challenge-2-1/assets:images/Screenshot%202023-02-14%20at%2012.44.24%20AM.png)
+![alt text](file:///Users/nastacias/Desktop/bootcamp/Challenge-2-1/Screenshot%202023-02-14%20at%2012.44.24%20AM.png)
 
 Clicking on "Contact Me" in the top right-hand side of the nav bar, will take you to my contact info, which will like the following:
 
-![alt text](file:///Users/nastacias/Desktop/bootcamp/Challenge-2-1/assets:images/Screenshot%202023-02-14%20at%2012.44.42%20AM.png)
+![alt text](file:///Users/nastacias/Desktop/bootcamp/Challenge-2-1/Screenshot%202023-02-14%20at%2012.44.42%20AM.png)
 
 Clicking on "Work" in the top right-hand side of the nav bar, will take you to my completed projects. You can click on each project to be taken to deployed application.
 
