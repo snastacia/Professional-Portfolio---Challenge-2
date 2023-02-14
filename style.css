@@ -72,38 +72,41 @@ p {
     display: inline-block;
 }
 
-.projects {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 90%;
-  height: 100vh;
-  margin: 0 auto;
-  border-style: solid;
-  border-width: 2px;
-}
+ .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
 
-.card {
-        flex: 1 0 0;
-        padding: 10px;
-        text-align: center;
-        border-style: solid;
-        border-width: 1px;
-      }
+ .card:first-child{
+    min-height: 150px;
+    flex-basis: 100%;
+ }
 
-.card header {
-    padding: 20px;
-    background: #8e9191;
-    color: #fff;
-  }
-  
-  .card img {
-    width: 200px;
-    height: 200px;
-    background-color: #ffffff;
-    min-width: 200px;
-  }
+ .card {
+    min-height: 150px;
+    max-height: 150px;
+    margin: 5px 25px;
+    width: 43%;
+    border-style: solid;
+    border-width: 5px;
+    padding: 10px;
+ }
+
+ .content-sections {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+
+ .content-sections h2 {
+    flex: 0 0 20%;
+ }
+
+ .content-details {
+    flex: 0 0 78%;
+ }
 
 .About-Me-Section {
     margin-bottom: 20px;
@@ -118,7 +121,6 @@ p {
 .Projects-Section {
     margin-bottom: 20px;
     padding: 50px;
-    height: 400px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #536862;
     color: #ffffff;
@@ -181,14 +183,6 @@ p {
     text-decoration-color: #ffffff;
     text-decoration-style: solid;
 }
-
-.card {
-    border-style: solid;
-    border-width: 5px;
-    padding: 10px;
-    float: left;
-    width: 25%;
-  }
   
   .card header {
     padding: 20px;
